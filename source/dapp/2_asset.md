@@ -1,4 +1,4 @@
-title: Dapp开发教程一 Asch Dapp Asset
+title: Dapp开发教程二 Asch Dapp Asset
 ---
 
 前一篇文章我们介绍了asch dapp开发的基本流程，这一次我们打算创建一个拥有内置资产的dapp，并顺便介绍下前后端通讯的协议和常用接口。
