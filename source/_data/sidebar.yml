@@ -1,0 +1,15 @@
+docs:
+  basic:
+    install: index.html
+    delegate_forging: asch_delegate_forging.html
+    command_line: asch_cli_usage.html
+    http: asch_http_interface.html
+
+dapp:
+  basic:
+    introduction: index.html
+  tutorial:
+    hello: 1_hello.html
+    asset: 2_asset.html
+    mini_dao: 3_mini_dao.html
+    dice_game: 4_dice_game.html

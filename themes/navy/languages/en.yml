@@ -1,0 +1,34 @@
+menu:
+  docs: Docs
+  api: API
+  search: Search
+  whitepaper: Whitepaper
+  dapp: Dapp
+
+index:
+  get_started: Get started
+
+page:
+  contents: Contents
+  back_to_top: Back to Top
+  improve: Improve this doc
+  prev: Prev
+  next: Next
+  last_updated: "Last updated: %s"
+
+sidebar:
+  docs:
+    basic: Basic
+    install: Install
+    delegate_forging: Delegate & forging
+    command_line: Command line interface
+    http: HTTP interface
+
+  dapp:
+    basic: Basic
+    introduction: Introduction
+    tutorial: Tutorial
+    hello: 1. Hello World
+    asset: 2. Asset
+    mini_dao: 3. Mini DAO
+    dice_game: 4. Dice game
