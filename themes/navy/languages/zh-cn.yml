@@ -4,6 +4,7 @@ menu:
   search: 搜索
   whitepaper: 白皮书
   dapp: Dapp开发
+  help: 常见问题
 
 index:
   get_started: 开始使用
@@ -33,3 +34,4 @@ sidebar:
     mini_dao: 3. Mini DAO
     dice_game: 4. Dice game
     publish: 5. 发布
+
