@@ -1,4 +1,4 @@
-title:Asch问答
+title: Asch问答
 ---
 
 # 1 请简单介绍下Asch
@@ -20,7 +20,7 @@ Asch是一个具有前瞻性的、低成本的一站式应用解决方案，相�
 综合2群：545183438
 受托人群：565316323
 
-#3 Asch钱包有哪些？
+# 3 Asch钱包有哪些？
 在线钱包
 
 http://mainnet.asch.so/
@@ -36,14 +36,14 @@ android
 ios钱包
 android
 
-#4 Asch是用什么语言开发的？
+# 4 Asch是用什么语言开发的？
 Asch平台是用Node.js语言开发的（底层有部分C或者C++开发的模块），如果出现性能瓶颈，完全可以用C或者C++将之模块化。
 如果想做Asch平台本身的开发，Node.js则是必备技能。
 
-#5 Asch使用了哪些框架？
+# 5 Asch使用了哪些框架？
 Asch本身就是一个框架，方便用户开发区块链级别的Dapp。由于其本身使用Node.Js开发的，因此使用了一些既有模块，如express。
 
-#6 Asch有哪些特点？
+# 6 Asch有哪些特点？
 支持侧链（跨链），Dapp数据存储在侧链，主链数据不会膨胀过快。
 Node.JS语言优势
 关系型数据库存储区块数据，降低Dapp开发难度
@@ -51,38 +51,38 @@ Node.JS语言优势
 不会出现分叉
 安全沙箱隔离机制
 
-#7 Asch为什么不会出现分叉？
+# 7 Asch为什么不会出现分叉？
 Asch 系统采用的共识机制是基于 DPOS 的，也是使用了委托人选举的制度，但是在算法的后半部分采用了一个优化后的 PBFT 算法变种，
 这个算法可以在 t < n / 3 时，以O(n^2)消息复杂度，O(1)的时间复杂度使忠诚的节点达成一致，不会分叉，
 其中 t 表示拜占庭节点(即可能发生任意行为的节点，比如网络延迟、停机、恶意攻击等等)的个数，n 表示所有节点的个数。
 [详情见Asch共识算法（0.5版本）]（https://github.com/sqfasd/dpos-pbft）
 
-#8 Asch能挖矿吗？
+# 8 Asch能挖矿吗？
 Asch采用非Pow算法，因此不能挖矿，但可以通过参选受托人来获取锻造收益。
 Asch使用的AC1.0共识算法(优化版的dpos with pbft算法），通过受托人机制来保证区块的产出。
 每个人都可以注册受托人，每个人也都可以给受托人投票。但只有得票最多的前101位受托人可产块(记账），当前每生产一个区块奖励
 3.5 XAS，每10秒生成一个区块。
 [Ac1.0算法]（https://www.zybuluo.com/sqfasd/note/238445）
 
-#9 Asch的初始发行量是多少？
+# 9 Asch的初始发行量是多少？
 Asch的初始发行量是1亿xas，详情请看[Asch ICO方案]（http://blog.asch.so/2016/05/21/ico-plan/）
 
-#10 Asch受托人收益如何？
+# 10 Asch受托人收益如何？
 每天产块总收益：24*60*60/10*3.5=30240 XAS
 每个受托人每天产块收益：30240/101=299.4 XAS
 区块奖励会随着时间递减，[请点击查看详情]（https://github.com/AschPlatform/asch-docs/blob/master/asch_delegate_forging.md）
 
-#11 Asch上如何发行自己的资产？
+# 11 Asch上如何发行自己的资产？
 
 [点击查看发行资产教程](http://www.biviews.com/nd.jsp?id=497#_np=141_990)
 
-#12 Asch支持那些平台？
+# 12 Asch支持那些平台？
 当前只有Linux平台是全支持的，Windows可以同步区块但不能产块，其它平台后续支持。
 
-#13 Asch和ETH、LISK的对比
+# 13 Asch和ETH、LISK的对比
 
 
-#14 Asch可以在哪里交易？
+# 14 Asch可以在哪里交易？
 Asch现在可以在3个交易平台进行交易，分别是：
 [元宝网](https://www.yuanbao.com/trade/xas2cny)
 [聚币网](https://www.jubi.com/coin/xas/)
@@ -91,10 +91,10 @@ Asch现在可以在3个交易平台进行交易，分别是：
 [多元网](https://www.dyszsp.com/)
 其它交易平台约谈中。
 
-#15 Asch有哪些区块链浏览器?
+# 15 Asch有哪些区块链浏览器?
 [http://aschd.org/](http://aschd.org/)
 
-#16 Asch的提供哪些Api？
+# 16 Asch的提供哪些Api？
 Asch目前的api是restfull形式的，如请求http://45.32.248.33:4096/api/transactions/get?id=08ce16c9cf6a0dd4636f8f17665146984293c2f2889124877ad7e4f3eea37eb2，返回json数据。
 api分3大类：
 1、普通外部访问api
@@ -102,7 +102,7 @@ api分3大类：
 3、dapp api
 [点击查看详情api文档](https://github.com/AschPlatform/asch-docs/blob/master/asch_http_interface.md)
 
-#17 Asch通胀率如何？
+# 17 Asch通胀率如何？
 区块奖励会随着时间递减，具体时间则以未来的某一区块高度为准。
 Asch系统的区块奖励从464500块开始，初始奖励3.5币，每300万块递减一次，大约为1年。
 从15464500块以后，奖励不再递减，每年有略小于1.5%的通胀率(相对于发行初始量1亿)。
@@ -119,6 +119,7 @@ Asch系统的区块奖励从464500块开始，初始奖励3.5币，每300万块�
 |第六年|1.1%|150|
 
 下面是各个阶段的区块奖励
+
 |受托人奖励（xas）|起始高度|结束高度|
 |-----|------|-------|
 |3.5|464500|3464500|
@@ -128,18 +129,18 @@ Asch系统的区块奖励从464500块开始，初始奖励3.5币，每300万块�
 |1|12464500|15464500|
 |0.5|15464500||
 
-#18 Asch代码的使用的开源许可协议是什么？
+# 18 Asch代码的使用的开源许可协议是什么？
 
 The MIT License (MIT)
 
-#19 Asch相关算法有哪些？
+# 19 Asch相关算法有哪些？
 
 [共识算法0.5（AC0.5）](https://github.com/sqfasd/dpos-pbft)
 [共识算法1.0（AC1.0）](https://www.zybuluo.com/sqfasd/note/238445)
 密码生成算法：BIP39规范（一级密码）
 私钥、公钥生成算法：ed25519加密
 
-#20 Asch侧链（跨链）简介
+# 20 Asch侧链（跨链）简介
 
 侧链指的不是Asch做为其它区块链的侧链，而是Asch自己有侧链，即Dapp。
 目前只能用nodejs开发，如果想用java、python、php等语言开发，只要做出来对应的SDK即可，大家可以尝试写写，主要是把Asch-js这个库用别的语言写出来。
@@ -152,11 +153,11 @@ Dapp开发教程三 Asch Dapp Mini DAO这个文档教你如何创建新的交易
 Dapp开发教程四 Asch Dapp Dice Game这个文档教教你如何创建更复杂的交易类型或智能合约，如何在合约之间建立关联，如何在合约执行时依赖历史交易数据等，并且实现了一个骰子游戏作为演示。
 Dapp开发教程五 发布Dapp到线上这个文档教教你如何在注册到线上系统(testnet, mainnet)以及如何安装和卸载
 
-#21 Asch入门之转账
+# 21 Asch入门之转账
 
 http://forum.asch.so/index.php?s=/forum/index/detail/id/95.html
 
-#22 Asch发展历程
+# 22 Asch发展历程
 
 2016-01-01 Asch项目立项启动。
 2016-03-21 公布Asch ICO方案
