@@ -24,7 +24,7 @@
               {{ partial('partial/carbonads') }}
               <strong class="sidebar-title">{{ __('page.contents') }}</strong>
               {{ toc(page.content, {list_number: false}) }}
-              <a href="#" id="article-toc-top">{{ __('page.back_to_top') }}</a>
+              <a href="#" id="article-toc-top"><i class="fa fa-angle-up"></i></a>
             </div>
           </aside>
         </div>
