@@ -1,10 +1,10 @@
 menu:
   docs: Docs
   api: API
-  search: Search
   whitepaper: Whitepaper
   dapp: Dapp
   help: Help
+  search: Search
 
 index:
   get_started: Get started
@@ -25,6 +25,11 @@ sidebar:
     command_line: Command line interface
     http: HTTP interface
 
+  whitepaper:
+    catalog: catalog
+    asch: Asch whitepaper
+    cctime: CCTime whitepaper
+
   dapp:
     basic: Basic
     introduction: Introduction
@@ -35,3 +40,7 @@ sidebar:
     dice_game: 4. Dice game
     publish: 5. Publish
 
+  help:
+      catalog: catalog
+      asch: Asch F&Q
+      cctime: CCTime F&Q

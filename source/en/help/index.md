@@ -1,252 +1,375 @@
-title: Asch问答
+title: Asch FAQ
 ---
 
-# 1 请简单介绍下Asch
-Asch在模式上类似以太坊，其设计初衷是为了降低开发者的门槛，比如使用javascript作为应用编程语言，支持关系数据库来存储交易数
-据，使得开发一个dapp与传统的web应用非常相似，相信这对开发者和中小型企业有很大的吸引力，只有开发者的生产力提高了，整个平
-台的生态才能够更迅速的繁荣起来。Asch在设计上也是开放的，并没有局限于某个细分领域，比如金融、文件存储、版权证明等，其提供
-的api都是较底层和抽象的，它们可以被自由组合实现各种不同的应用。在共识机制方面，Asch继承并增强了DPOS算法，大大降低了分叉几
-率和双重支付风险。另外，Asch的侧链即应用模式不但延缓了区块链膨胀问题，还使得dapp更加的灵活和个性化。
-Asch是一个具有前瞻性的、低成本的一站式应用解决方案，相信将成为新一代去中心化应用的孵化器.Asch的代币为XAS，初始总量为1亿。
-详情见Asch官网
+# 1 The brief introduction of Asch
+
+The original design purpose of Asch is to reduce the skill threshold for the developers.For example,
+it makes DAPP development and traditional web applications become quite similar by adopting JavaScript
+as an application development language and supporting RDB (Relational Database) to store the transaction data,
+which must be extremely attractive to developers and SMEs (Small and Medium-sized Enterprises).We believe the
+ecosystem of the whole platform will not be developed rapidly unless developers’ productivity could be promoted.
+Asch is also an open platform which is not limited to a particular area, such as finance, document storage,
+copyright proof etc, but providing a series of underlying and abstract APIs which can be combined freely to realize
+various kinds of application. In addition, Asch system inherits and  enhances DPOS(Delegated Proof of Stake) algorithm
+in its consensus mechanism to significantly reduce the probability of block fork and the risk of duplicate payment.
+Most importantly, Asch’s sidechain-is-application mode can not only alleviate the blockchain inflation issue, but also
+make DApp more flexible and characteristic. Asch is a prospective, low-cost, one-stop solution that is surely able to
+be the incubator of next generation decentralized application. The token of Asch is XAS, and the initial amount of
+XAS is 100 million. See Asch official website for details.
 
 
-# 2 我应该样去了解Asch？
-查看[官网](https://www.asch.so/)
-通读[Asch白皮书](https://www.asch.so/asch-whitepaper.pdf)
-如果是开发者，可以通过查看[Asch的github](https://github.com/AschPlatform/asch)，大致了解源码相关内容
-去QQ群和大家沟通交流
-综合1群：485979564
-综合2群：545183438
-受托人群：565316323
 
-# 3 Asch钱包有哪些？
-在线钱包
+# 2 How do we know Asch?
 
-http://mainnet.asch.so/
+check [official website](https://www.asch.so/)
+Read [Asch white paper](https://www.asch.so/asch-whitepaper.pdf)
+Developers can view/check the source code of Asch from github website and communicate with people through Asch official QQ groups[Asch的github](https://github.com/AschPlatform/asch)
 
-本地钱包（全节点钱包）
+Asch official ecological community QQ group one：485979564
+Asch official ecological community QQ group two：545183438
+Asch developers QQ group：472708713
+BIVIEWS: ASCH  Column
+Micbolg: 北京阿希链科技有限公司
+Official WeChat：
+![wechat](./assets/wechat.png)
 
-需要自行搭建，参考[Asch节点搭建]（https://github.com/AschPlatform/asch-docs/blob/master/asch_install.md）这篇文档。
+# 3 What is the Asch Wallet?
 
-移动端钱包
+Please be sure to back up the master password of wallet when you use your Asch wallet. If forget your master password,
+you will never open your wallet. When you input master password, please note the space to avoid getting different
+wallet address.
+
+Old wallet address of Asch system is digital, later upgraded to letters.  Both can be compatible, but some exchanges
+can not be compatible. So old users should  pay  attention to exchange currency to use new wallet letters address as
+far as possible.
+
+Online wallet: http://mainnet.asch.so/
+
+How do we use wallet?
+
+Freshman must see how to manipulate Asch account proficiently.
+[Notes for wallet users](http://bbs.asch.so/topic/23/%E9%92%B1%E5%8C%85%E7%94%A8%E6%88%B7%E9%A1%BB%E7%9F%A5)
+
+Local Wallet（全节点钱包）
+
+If you want to install Local Wallet by yourself, please refer to this document [Asch Node Installation Guide](https://github.com/AschPlatform/asch-docs/blob/master/asch_install.md).
+
+Mobile Wallet
+
+Mobile wallet only needs to enter a master password when login to mobile wallet. Then set the gesture password. After that, using the gesture password can access the wallet.
 
 android钱包
-android
+    ![android](./assets/android.png)
 ios钱包
-android
+    ![iphone](./assets/iphone.png)
 
-# 4 Asch是用什么语言开发的？
-Asch平台是用Node.js语言开发的（底层有部分C或者C++开发的模块），如果出现性能瓶颈，完全可以用C或者C++将之模块化。
-如果想做Asch平台本身的开发，Node.js则是必备技能。
+# 4 What language is used to develop Asch?
 
-# 5 Asch使用了哪些框架？
-Asch本身就是一个框架，方便用户开发区块链级别的Dapp。由于其本身使用Node.Js开发的，因此使用了一些既有模块，如express。
+Asch platform is developed by Node.js language. There are some underlying developed modules with C or C++ language.
+If there are bottlenecks in performance, you can use C or C ++ to modularize it at all.
 
-# 6 Asch有哪些特点？
-支持侧链（跨链），Dapp数据存储在侧链，主链数据不会膨胀过快。
-Node.JS语言优势
-关系型数据库存储区块数据，降低Dapp开发难度
-产块速度块，每10秒产一个块，确认快。
-不会出现分叉
-安全沙箱隔离机制
+If you want to develop Asch platform itself, Node.js is the necessary skill, follow-up to add  SDK of mainstream
+development language like java, python, php, Go etc.
 
-# 7 Asch为什么不会出现分叉？
-Asch 系统采用的共识机制是基于 DPOS 的，也是使用了委托人选举的制度，但是在算法的后半部分采用了一个优化后的 PBFT 算法变种，
-这个算法可以在 t < n / 3 时，以O(n^2)消息复杂度，O(1)的时间复杂度使忠诚的节点达成一致，不会分叉，
-其中 t 表示拜占庭节点(即可能发生任意行为的节点，比如网络延迟、停机、恶意攻击等等)的个数，n 表示所有节点的个数。
-[详情见Asch共识算法（0.5版本）]（https://github.com/sqfasd/dpos-pbft）
+# 5 What frameworks does Asch use?
 
-# 8 Asch能挖矿吗？
-Asch采用非Pow算法，因此不能挖矿，但可以通过参选受托人来获取锻造收益。
-Asch使用的AC1.0共识算法(优化版的dpos with pbft算法），通过受托人机制来保证区块的产出。
-每个人都可以注册受托人，每个人也都可以给受托人投票。但只有得票最多的前101位受托人可产块(记账），当前每生产一个区块奖励
-3.5 XAS，每10秒生成一个区块。
-[Ac1.0算法]（https://www.zybuluo.com/sqfasd/note/238445）
+Asch itself is a framework that is easy for users to develop Dapp of blockchain-level. Because it is developed by Node.
+Js, some existing modules are using, such as express.
 
-# 9 Asch的初始发行量是多少？
-Asch的初始发行量是1亿xas，详情请看[Asch ICO方案]（http://blog.asch.so/2016/05/21/ico-plan/）
+# 6 What features does Asch have?
 
-# 10 Asch受托人收益如何？
-每天产块总收益：24*60*60/10*3.5=30240 XAS
-每个受托人每天产块收益：30240/101=299.4 XAS
-区块奖励会随着时间递减，[请点击查看详情]（https://github.com/AschPlatform/asch-docs/blob/master/asch_delegate_forging.md）
+1. Support side-chain (cross-chain). Store Dapp data in the side-chain, and then the main chain data will not swell too fast.
+2. Advantages of Node.JS language.
+3. Storage block data of relational database to reduce the difficulty of Dapp development
+4. The speed of block production is fast. Produce a block in every 10 seconds and confirm it fast.
+5. There will be no bifurcation.
+6. Safe sandbox isolation mechanism
 
-# 11 Asch上如何发行自己的资产？
+# 7 Why will Asch not bifurcate?
 
-[点击查看发行资产教程](http://www.biviews.com/nd.jsp?id=497#_np=141_990)
+Asch system uses consensus which is based on DPOS,the delegate election system,but on the bottom half of the algorithm
+we use a optimized and variant PBFT algorithm.This algorithm can achieve the consistency of the loyal nodes by the time
+complexity of O(n ^ 2) and message complexity of O(1) at t<n/3 to prevent bifurcation,in the equation t presents the
+number of the Byzantine Failures nodes(any possible problems like network latency,system crash,vicious attack and so on),
+n presents the number of all nodes.
 
-# 12 Asch支持那些平台？
-当前只有Linux平台是全支持的，Windows可以同步区块但不能产块，其它平台后续支持。
+# 8 Can Asch be mined?
 
-# 13 Asch和ETH、LISK的对比
+Asch uses a non-Pow algorithm, so it can not be mined. But it can be used to obtain the benefit forging by delegators.
+
+Asch use AC1.0 consensus algorithm(a optimized dpos with pbft algorithm),ensure the output of blocks through the delegate system.
+
+Everyone can register to be a delegate,everyone can vote for any delegate,but only the top 101 delegates who get the
+most votes can forge blocks(accounting).Now delegate can get 3.5 XAS as reward for forging one block,and each block
+takes 10 seconds to be forged.
+
+# 9 How many are the initial circulations of Asch?
+
+Asch's initial circulation is 100 million. For details, see the Asch ICO scheme.
+
+# 10 How much is Asch trustees’s returns?
+
+Gross profit per day: 24*60*60/10*3.5=30240 XAS
+
+Each trustee’s gross profit per day: 30240/101=299.4 XAS
+
+The block rewards will decrease over time.Please click to see the details.
+
+# 11 How do we issue our own assets by Asch?
+
+[Click to see the publishing asset tutorial](http://bbs.asch.so/topic/115/asch%E5%8F%91%E8%A1%8C%E8%B5%84%E4%BA%A7%E4%BD%BF%E7%94%A8%E6%96%87%E6%A1%A3)
+
+# 12 Which platforms does Asch support?
+
+Currently, only the Linux platform is fully supported, while Windows can synchronize blocks but cannot produce blocks.
+And other platforms will support later.
+
+# 13 Comparision among Asch, ETH and LISK
+
+Comparision between Asch and ETH
+
+|name|ASCH|ETH|
+|-----|------|-------|
+|Consensus mechanism|DPOS+PBFT Compared to pow,DPOS and PBFT focuses more on decentration. Pow has the problem of calculating force or centralization of miners. Compared with pos,pow’s right to keep accounts is transferred to the trustees, but the shareholders still have the decision-making right, more security and decentralization.|Pow+pos|
+|Smart contract implementation|side-chain. The data is in dapp.|Transaction scripts.  The data is all in the main chain, easily expanding.|
+|Contract language|Native javascript|Solidity is operated on evm.ETH lacks of documents,with little appropriate users and high threshold.|
+|expansibility|The application of side chain and side chain can be downloaded as users needs without causing the main chain expansion.|The surge of Dapp will pose risks to the whole blockchain.|
+|security|The side chain operates independently ,without affecting the main chain.|The Dapp vulnerability will affect the whole blockchain, such as the dao event.|
+|confirmation time of block|10s|15s|
+|TPS|3000|20|
+
+Comparision between Asch and LISK
+
+|name|ASCH|LISK|
+|-----|------|-------|
+|Consensus mechanism|DPOS+PBFT There is not fork and double-payment risk attacked by hackers.|DPOS,furcation and fixture block.|
+|sandbox|Real sandbox can limit side chain’s permissions.|ETH cannot restrict the side chain’s permission.|
+|Non-critical refinement and optimization |1.Create and sign the transaction at the front and transfer the encrypted data to the back.2.As long as the problem of front-end performance is solved,it will not cause dpos to system itself.3.As data persistence, the savepoint of databaseand the rollback is widely adopted. Although in poor network conditions, it won’t fix blocks and furcate.|The user's password is transmitted directly to the back-end, which is easy to record and access.|
+|TPS|3000|20|
 
 
-# 14 Asch可以在哪里交易？
-Asch现在可以在3个交易平台进行交易，分别是：
-[元宝网](https://www.yuanbao.com/trade/xas2cny)
-[聚币网](https://www.jubi.com/coin/xas/)
-[币交所](https://www.biduobao.com/market-xas.html)
-[币多宝](https://www.coinvc.com/market/trade/xas)
-[多元网](https://www.dyszsp.com/)
-其它交易平台约谈中。
+# 14 Where can Asch trade?
 
-# 15 Asch有哪些区块链浏览器?
-[http://aschd.org/](http://aschd.org/)
+Now
+[Yuanbao](https://www.yuanbao.com/trade/xas2cny)
+[Jubi](https://www.jubi.com/coin/xas/)
+[Bijiaosuo](https://www.biduobao.com/market-xas.html)
+[Biduobao](https://www.coinvc.com/market/trade/xas)
+[cryptodao](https://cryptodao.com/)
 
-# 16 Asch的提供哪些Api？
-Asch目前的api是restfull形式的，如请求http://45.32.248.33:4096/api/transactions/get?id=08ce16c9cf6a0dd4636f8f17665146984293c2f2889124877ad7e4f3eea37eb2，返回json数据。
-api分3大类：
-1、普通外部访问api
-2、内部通讯api
+future
+[Duoyuan](https://www.dyszsp.com/)
+[BTC100](https://www.btc100.cn/)
+
+
+# 15 What blockchain browzers does Asch have?
+Chinese version：http://aschd.org/
+English version：http://explorer.asch.pub/
+
+# 16 What Api does Asch provide?
+The form of Api for Asch is restfull,if you request  like http://45.32.248.33:4096/api/transactions/get?id=08ce16c9cf6a0dd4636f8f17665146984293c2f2889124877ad7e4f3eea37eb2，Then return to the json data.。
+There are three type of API :
+1. General external access Api
+2. Internal communication Api
 3、dapp api
-[点击查看详情api文档](https://github.com/AschPlatform/asch-docs/blob/master/asch_http_interface.md)
 
-# 17 Asch通胀率如何？
-区块奖励会随着时间递减，具体时间则以未来的某一区块高度为准。
-Asch系统的区块奖励从464500块开始，初始奖励3.5币，每300万块递减一次，大约为1年。
-从15464500块以后，奖励不再递减，每年有略小于1.5%的通胀率(相对于发行初始量1亿)。
+# 17 What is the Asch inflation rate?
+The block bonus  will decline by the time,the specific time is based on the height of a block in the future. The block bonus  system starts form 464500, with an initial reward of 3.5 coins, and is reduced every 3 million blocks  in 1 years. After the 15464500 block, bonuses are no longer diminishing, with a slight inflation rate of less than 1.5% a year (relative to the initial amount of 100 million).
+The  inflation rate is as follow： (calculated from the 464500 block, because there are block rewards at this time, probably around October 7, 2016)
 
-大概的通胀率如下（从464500块开始计算，因为此时才有区块奖励，大概是2016年10月7号左右）
-
-|年限|本年相对于上半年的通胀率|当年区块奖励总和(万XAS)|
+|Years|inflation rate relieve to last year|Current block bonus sum(ten thousandXAS)|
 |-----|------|-------|
-|第一年|10.5%|1050|
-|第二年|7.5%|900|
-|第三年|5.9%|750|
-|第四年|4.5%|600|
-|第五年|2.2%|300|
-|第六年|1.1%|150|
+|First year|10.5%|1050|
+|Secend year|7.5%|900|
+|Third year|5.9%|750|
+|Fouth year|4.5%|600|
+|Fifth year|2.2%|300|
+|Sixth year|1.1%|150|
 
-下面是各个阶段的区块奖励
-|受托人奖励（xas）|起始高度|结束高度|
-|-----|------|-------|
-|3.5|464500|3464500|
-|3|3464500|6464500|
-|2.5|6464500|9464500|
-|2|9464500|12464500|
-|1|12464500|15464500|
-|0.5|15464500||
 
-# 18 Asch代码的使用的开源许可协议是什么？
+Here are the blocks of rewards at all stages:
+
+| Trustee Award(xas) | Start height | End height  |
+| ------ | ------ | ------ |
+| 3.5 | 464500 | 3464500 |
+| 3 | 3464500 | 6464500 |
+| 2.5 | 6464500 | 9464500 |
+| 2 | 9464500 | 12464500 |
+| 1 | 12464500 | 15464500 |
+| 0.5 | 15464500 | --|
+
+# 18 What is the GPL of Asch code?
 
 The MIT License (MIT)
 
-# 19 Asch相关算法有哪些？
+# 19 What related algorithms does Asch use?
 
-[共识算法0.5（AC0.5）](https://github.com/sqfasd/dpos-pbft)
-[共识算法1.0（AC1.0）](https://www.zybuluo.com/sqfasd/note/238445)
-密码生成算法：BIP39规范（一级密码）
-私钥、公钥生成算法：ed25519加密
+Consensus algorithm 0.5（AC0.5）
+Consensus algorithm 1.0（AC1.0）
+Password generation algorithm: BIP39 specification (Level 1 password)
+Private key and public key generation algorithm: ed25519 encryption
 
-# 20 Asch侧链（跨链）简介
+# 20 Side-chain (cross-chain) Introduction
 
-侧链指的不是Asch做为其它区块链的侧链，而是Asch自己有侧链，即Dapp。
-目前只能用nodejs开发，如果想用java、python、php等语言开发，只要做出来对应的SDK即可，大家可以尝试写写，主要是把Asch-js这个库用别的语言写出来。
-Dapp开发的便易性，青峰在做优化，Asch2.0会发布。
-当前已有的文档如下：
-[Asch Dapp开发介绍](https://github.com/AschPlatform/asch-docs/blob/master/asch_dapps_introduction.md) ：侧链相关技术说明
-[Dapp开发教程一 Asch Dapp Hello World](https://github.com/AschPlatform/asch-docs/blob/master/dapp_docs/1_hello.md) ：这个文档会教你如何创建并发布一个基础的侧链应用，并介绍侧链框架的源码结构
-Dapp开发教程二 Asch Dapp Asset
-Dapp开发教程三 Asch Dapp Mini DAO这个文档教你如何创建新的交易类型或智能合约，并且提供了一个包括项目管理和投票功能mini dao项目作为演示
-Dapp开发教程四 Asch Dapp Dice Game这个文档教教你如何创建更复杂的交易类型或智能合约，如何在合约之间建立关联，如何在合约执行时依赖历史交易数据等，并且实现了一个骰子游戏作为演示。
-Dapp开发教程五 发布Dapp到线上这个文档教教你如何在注册到线上系统(testnet, mainnet)以及如何安装和卸载
+The side chain refers not to Asch as the side chain of the other block chain, but to the Asch that has its own side chain,Dapp.
 
-# 21 Asch入门之转账
+Currently only use nodejs development, if you want to use Java, python, PHP and other language development, as long as the corresponding SDK can be done, we can try to write, mainly to Asch-js this library written in other languages.
 
-http://forum.asch.so/index.php?s=/forum/index/detail/id/95.html
+For convenient to Dapp development, Qingfeng was doing optimization, Asch2.0 will be released.
+The existing documents are as follows:
+Asch Dapp development introduced: side chain related technical notes.
+Dapp development 1: Asch Dapp Hello World: this document will teach you how to create and publish a basic side chain applications, and introduce the source code structure of the side chain framework.
+Dapp development 2: Asch, Dapp, Asset
+Dapp development 3 : Asch Dapp Mini DAO, and this document teaches you how to create new transaction types or smart contracts, and provides a mini Dao project that includes project management and voting functions as a demonstration
+Dapp development 4: Asch Dapp Dice Game development tutorial, this
+document teach you how to create more complex types of transactions or intelligent contract, how to establish the association between the contract, how to enforce contracts to rely on historical transaction data, and the realization of a dice game as a demo.
+Dapp development 5: release Dapp to the online, this document teaches you how to register on the online system (testnet, mainnet), and how to install and uninstall.
 
-# 22 Asch发展历程
+# 21 How do we transfer Asch?
 
-2016-01-01 Asch项目立项启动。
-2016-03-21 公布Asch ICO方案
-总量 1亿，单位XAS
-ICO总量 7500万
-推荐人及活动奖励 200万
-早期支持者奖励 150万
-应用开发者奖励 650万
-后期推广、运营、合作基金 500万
-核心团队预留 1000万
-最低目标 1000BTC
-开始时间 2016年5月22号18点
-结束时间 2016年6月26号23点
-众筹方式 支持比特币和人民币两种方式
-2016-03-01 分析了DPOS算法的漏洞并且模拟了一个简单的攻击的方法，然后实现了一个简化的PBFT算法模型试图去修复该漏洞（阿希共识协议算法原型）。https://github.com/sqfasd/dpos-pbft/
-2016-03-21 发布《Lisk沙箱漏洞分析及解决方案》文章
-2016-05-01 区块宝成立。
-2016-05-22 18点开始Asch ICO
-2016-06-05 在git.oschina.net上初始化Asch代码库。
-2016-06 在正式的产品中实现了完整版dpos+pbft的算法，并且部署了10台机器进行了测试。测试的结果在安全性方面完全符合预期，即经过频繁的重启、不按常规的广播区块、少数受托人联合作弊的情况下，整个系统依然不会分叉（AC0.5）。
-2016-06-26 23点Asch ICO成功结束。
-2016-06-30 公布Asch ICO结果，总共获得1795.60074911比特币和479407.87人民币。
-2016-07-13 发布Asch 0.9.1版本。公测正式开始。广大受托人开始参与测试。
-2016-07-17 发布Asch 0.9.2版本。
-2016-08-02 发布Asch 0.9.3版本。
-2016-08-03 发布Asch 0.9.4版本。产品趋于稳定。
-2016-08-11 升级共识算法到AC1.0。AC0.5在性能方面，不太理想，在没有任何交易的情况下，网路流量的峰值(广播区块的瞬间)达到了1.5Mbps。 其实这个流量也不算离谱，为了安全性，付出一些带宽的代价也算合理，但我们认为还有很大的优化空间，而且asch作为一个开发平台，平台底层的效率和稳定性是很重要的，带宽方面的优化是很有必要的，我们立刻着手去做了。截止到8月9号，系统已升级到0.9.5版本，在49个节点组成的testnet中，带宽的峰值在600kbps左右。
-2016-08-16 Asch mainnet 正式启动，ICO分发代币。
-2016-09-01 Asch产品相关源码正式开源，代码以及相关文档都存放在https://github.com/sqfasd/
-2016-09-08 发布1.0.1版本
-轻钱包正式上线
-修复未确认交易问题
-2016-09-15 发布1.1.0版本
-修复多个dapp同时运行的bug
-增加前端dapp页面展示
-增加区块生产状态展示
-aschd脚本增加启动区块生产的命令
-更新dapp类型
-修复getdelegates在某些条件下的崩溃bug
-修复dapp安装和卸载过程中的bug
-增加top account查询接口
-修复重启时有很大几率出现reindex的bug
-2016-09 Asch项目代币XAS上线聚币网。
-2016-09-30 发布1.1.1版本
-修复局域网环境下同步的bug
-增加版本兼容性检测，拒绝接受不兼容的旧版本节点的连接
-2016-10-21 发布1.1.2版本
-支持i18n
-处理交易回滚导致的同步卡主问题
-修复dapp数据库清理不干净的问题
-2016-10-26 发布1.1.3版本
-修复交易延展性问题
-2016-10-26 发布1.1.4版本
-修复request@2.76.0导致的内存溢出问题
-用特定版本的node模块做为Asch依赖
-2016-10 XAS上线BTCBOX.COM（日本国际交易所，已退市）
-2016-10 与北京金融云实验室达成战略合作，开展存证业务（定制版Asch）。
-2016-11-10 发布1.1.5版本
-修复backwards tick引起的卡块问题
-2016-11-22 受日本梦真控股邀请进行企业区块链技术培训。
-2016-11-25 张寿松在WOT2016大数据技术峰会做“基于侧链技术的区块链应用平台”主题演讲。
-2016-12 与日本电讯公司达成业务合作，发行数字资产。
-2016-12-20 Asch生态社区绿皮书公布。此后一周内选举志愿者协会、受托人协会、开发者协会的会长与副会长
-2017-01-18 发布1.2.1版本
-2017-02-17 发布1.2.2版本
-2017-02-26 发布1.2.3版本
-增加简单存储功能（中金云定制）
-增加用户发行资产功能（UIA）
-交易编号与区块区块编号改为32字节hex格式，旧数据不受影响
-账户地址改为base58check编码，新老账号可以并存
-2017-02-26 发布1.2.4版本
-在1700000块后激活base58check格式的地址
-2017-03-01 发布1.2.6版本
-2017-03-01 Asch mainnet 1.2版本正式激活。
-新增存储功能接口
-新增用户发行资产接口
-web图形界面大调整（优化）
-交易编号与区块区块编号改为32字节hex格式，旧数据不受影响
-新旧数据共存
-账户地址改为base58check编码，新老账号可以并存
-2017-03-05 发布1.2.7版本
-修复前端交易提交的问题
-修复弹出对话框展示问题
-轻钱包允许用户自行选择节点
-2017-04-07 张寿松在第二界中国金融交易技术大会上做“Asch2.0-以‘不变’应‘万变’”主题演讲。
-2017-05-08 XAS首次进入coinmarketcap.com全球加密币市值排行前100名。
-2017-05-14 Asch参加首届中国区块链开发大赛。
-2017-06-05 Asch移动端钱包Android版和M版正式发布。
-2017-06-18 Asch 1.3版本开发完成，进入内测阶段。
-2017-06-19 XAS首次进入coinmarketcap.com全球加密币市值排行前50名。
-2017-06-20 XAS同时上线币交所（coinvc.com）和币多宝（biduobao.com）两个交易平台
+Click : http://forum.asch.so/index.php?s=/forum/index/detail/id/95.html
 
+# 22 Asch’s work focus
+There are two main directions: application development and bottom development:
+1. Application development :Mainly for several typical applications, such as news aggregate, forecast markets and  exchanges.
+2. Bottom development: Optimize TPS, smart contracts, anonymous transactions, the authentication, the Oracle, and the cross links between BTC and  ETH.
+3. The community has already developed some supportingfacilities，such as asset browser, USB wallet and Java sdk.
+
+# 23 Asch发展历程
+
+Asch officials have brought the donations to earthquake-stricken area in Sichuan on August 10th, 2017.
+
+Asch community has issued the first DAPP demonstration application, CCTime and its white paper on August 7th,2017.
+
+Qingfeng Shan delivered a speech on side chain technology and the version of block chain 2.5 in Blockchain Geek Summit in China on August 6th , 2017.
+
+Asch has joined Blockchain technical application association in Zhengjiang, becoming a full member of the association on August 3th,  2017 .
+
+Qingfeng Shan, the founder of Asch, was invited to the construction seminar of Blockchain ICO industry ecological system in Guiyang, China on July 25th, 2017 .
+
+Asch has released the version of 1.3.0 on July 18th, 2017.
+
+Asch was traded in YUANBAO Exchange on July 6th, 2017.（yuanbao.com/trade/xas2ybc）
+
+Asch was traded in CRYPTODAO Exchange on July 1th, 2017.（cryptodao.com/site/index/XAS）
+
+On June 20, 2017, XAS was traded in the two exchange platforms, coinvc.com and biduobao.com at the same time.
+
+On June 19, 2017, Asch was first entered into  coinmarketcap.com, and was top 50 in the Global Encryption Coin
+
+On June 5, 2017, Asch mobile wallet for Android and M version was officially released.
+
+On May 14, 2017, Asch participated in the First China Block Chain Developing Competition.
+
+On May 8, 2017, Asch was first entered into coinmarketcap.com, and was top 100 in the Global Encryption Coin.
+
+On April 7, 2017, Shoushan Zhang made a speech about Asch 2.0 (With constant should ten thousand change)  in the Second China Financial Trading Technology Conference.
+
+On March 5, 2017, released Version 1.2.7: Fixed issues submitted by front-end transactions. Fixed pop-up dialog box to show questions. The light purse allowed users to select the node themselves.
+
+On March 1, 2017, Version mainnetnet 1.2 of Asch would be activated officially:
+Added storage interface.
+Added issuing asset for users interface.
+Adjusted (optimized) web graphic interface.
+Changed the format of transaction number and block number to 32 hex bytes without the affection of the old data..
+Coexisted the old and new data.
+Changed the account address to base58check code, and coexisted the old and new account.
+
+On March 1, 2017, released version 1.2.6.
+
+On Feb. 26, 2017, released version 1.2.4 and activated address of base58check format after block 1700000.
+
+On Feb.26, 2017, released version 1.2.3:
+Added the simple storage function (customized by Zhongjinyun)
+Added fuction of issuing asset for users (UIA)
+
+On Feb. 17, 2017, released version 1.2.2.
+
+On Jan. 18, 2017, release version 1.2.1
+Changed the format of transaction number and block number to 32 hex bytes without the affection of the old data.
+Changed the account address to base58check code, and coexisted the old and new account
+
+On Dec. 20, 2017,  Green Paper of Asch-eco community was published. After that week, the presidents and vice presidents of the Volunteers Association, the Trustee Association, the Developer Association would be selected.
+In Dec. 2016, cooperated with Japanese Telecommunications Company and released digital asset.
+
+On Nov. 25, 2016, Shousong Zhang made a speech about “Block Chain Application based on side chain technology ” in WOT2016 Big Data Technology Summit.
+
+On Nov. 22, 2016, held the training of enterprise block chain technology invited by Japanese Mengzhen company.
+
+On Nov. 10, 2016, released version 1.1.5 and fixed the block problem caused by backwards tick.
+
+In Oct. 2016, cooperated with Beijing Financial Cloud Laboratory, and carried out existing evidence business (customized version of Asch )
+
+In Oct. 2016, XAS was trading in BTCBOX.COM (quit the market of Japan International Exchange )
+
+On Oct. 26, 2016, released version 1.1.4:
+Fixed the memory overflow problem caused by request@2.76.0
+Used a specific version of the node module as Asch dependencies
+
+On Oct.26, 2016,  released version 1.1.3, and fixed trade ductility issues.
+
+On Oct.21, 2016, released version 1.1.2:
+Supported i18n
+Dealed with synchronized main card problem caused by transaction rollback.
+Fixed the cleaning problem of dapp database.
+
+On Sep. 30, 2016, released version 1.1.1:
+Fixed the synchronized bugs  in LAN environment.
+Added detection of version compatibility, and refused to accept incompatible connection of node for old version.
+
+In Sep. 2016, XAS token of Asch program was traded in Jubi (（www.jubi.com).
+
+On Sep.15, 2016, released 1.1.0:
+Fixed bugs of multiple dapp running at the same time.
+Added Page Display of front end dapp.
+Added Status Display of block production.
+Added commands to start block production in Asch script.
+Updated dapp types.
+Fixed the crashing bugs for getdelegates in certain conditions.
+Fixed bugs in dapp installation and uninstallation.
+Added querying interface for top account.
+Fixed reindex bugs during restarting which happened in great chance.
+
+On Sep. 8, 2016, released version 1.0.1, light purse was on line officially and fixed unconfirmed transactions.
+
+On Sep. 1, 2016,the source code of  Asch product officially was opened. The source code document: https://github.com/sqfasd/.
+
+On Aug. 16,2016, Asch main net was launched officially. ICO released the token.
+
+On Aug. 11, 2016, Consensus Algorithm was upgraded to AC1.0.
+
+On Aug. 9, 2016, system was upgraded to version 0.9.5 and optimized bandwidth. In the testnet combined by 49 nodes, the peak bandwidth was around 600kbps.
+
+On Aug.3, 2016, released version 0.9.4, the product tended to be stable.
+
+On Aug.2, 2016, released version 0.9.3.
+
+On July 17, 2016, released version 0.9.2.
+
+On July 13, 2016, released version 0.9.1. The beta began to test and trustee began to participate in the test, too.
+
+On June 20, 2016, Announced results of Asch ICO, which raised a total of 1795.60074911 bitcoin and 479407.87 RMB.
+At 4:00, June 28, 2016, the first block of Asch was born.
+At 23:00, June 26, 2016, Asch ICO ended successfully.
+In June 2016, achieved a full version of dpos+pbft algorithm in formal products, and deployed 10 machines to test it.
+The result of tests met the expectation in security. The whole system was still not be bifurcation(AC0.5) under the
+circumstances like rebooting frequently, broadcasting blocks irregularly, cheating by a small number trustees.
+initialized Asch source code library on: git.oschina.net
+
+At 18:00, May 22, 2016, Asch began ICO.
+On March 21, published <Bug analyses and solution plans of Lisk sandbox >
+In March, analyzed bugs of DPOS algorithm and simulate an attack using this bug in a simple way, then implement a predigest algorithm model based on PBFT to fix this bug(prototype of Asch consensus algorithms). https://github.com/sqfasd/dpos-pbft/
+On March 21,2016, announce Asch ICO plans:
+    Total amount:100 million XAS tokens
+    ICO amount:75 million XAS tokens
+    Promoter and promotion reward:2 millon XAS tokens
+Early supporter reward:1.5 million XAS tokens
+Application developer reward:6.5 million XAS tokens
+Post-promotion, operations, cooperation fund:5 million XAS tokens
+	Reservation for official team:10 million XAS tokens
+	Minimum Goal 1000BTC
+	Starting time 18:00 May 22, 2016
+	Ending time 23:00 June 26, 2016
+	ICO Raising was Supported by two ways: Bitcoin and RMB
+In Jan. 2016, Asch program was initiated and started.
 
